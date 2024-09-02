@@ -1,5 +1,5 @@
 # High-performance-Webserver-Framework
-用C++实现的高性能WEB服务器框架，经过webbench压力测试可以实现2000+的QPS
+用C++实现的高性能WEB服务器框架，经过webbench压力测试(虚拟机环境下，硬件配置阉割)可以实现2000+的QPS
 
 ## 功能
 * 利用IO复用技术Epoll与线程池实现多线程的Reactor高并发模型；
@@ -84,7 +84,7 @@ make install
 
 2.压测
 
-![performance](D:\githubproject\High-performance-Webserver-Framework\readme.assest\压力测试.png)
+![performance](https://github.com/xianduana/High-performance-Webserver-Framework/tree/main/readme.assest/压力测试.png)
 ```bash
 ./webbench-1.5/webbench -c 100 -t 10 http://ip:port/
 ```
