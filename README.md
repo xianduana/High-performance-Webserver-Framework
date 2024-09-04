@@ -84,7 +84,7 @@ make install
 
 2.压测
 
-![performance](https://github.com/xianduana/High-performance-Webserver-Framework/tree/main/readme.assest/压力测试.png)
+![performance](readme.assest/压力测试.png)
 ```bash
 ./webbench-1.5/webbench -c 100 -t 10 http://ip:port/
 ```
